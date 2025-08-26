@@ -2,6 +2,8 @@
 
 DLL plugin for Gunbound Thors Hammers v404 that demonstrates packet sending and game message display functionality.
 
+> **Note:** This is an educational project created for learning purposes. There is currently no official Gunbound server using this game version.
+
 ## Features
 
 - Automatic leave packet sending on F10 keypress
