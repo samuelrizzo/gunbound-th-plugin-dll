@@ -60,4 +60,4 @@ Output: `build/Release/plugin.dll`
 
 ## Acknowledgments
 
-**Luiz Felipe (Kyll3r)** for providing the server for testing and for encouraging this project through his Java GameServer publication
+**Luiz Felipe (Kyll3r)** for providing the server for testing and for encouraging this project through his Java GameServer publication (https://github.com/kyll3r/GunBound-Java)
