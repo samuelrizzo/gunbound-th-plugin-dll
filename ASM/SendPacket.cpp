@@ -1,6 +1,6 @@
 #include "SendPacket.h"
 
-void send_packet(BYTE *payload) {
+void SendPacket(BYTE *payload) {
     DWORD *payloadAddress = (DWORD *)0x006e3e28;
     DWORD *sendPacketFunc = (DWORD *)0x004c16a0;
 

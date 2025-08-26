@@ -2,7 +2,7 @@
  * @file SendPacket.h
  * @brief Declaration of the ASM-based packet sending routine for the Gunbound client.
  *
- * This header exposes the send_packet function, which copies the provided payload into the
+ * This header exposes the SendPacket function, which copies the provided payload into the
  * client's internal buffer and invokes the native sending routine. The implementation uses
  * x86 inline assembly and absolute addresses tied to a specific client version, so version
  * changes may invalidate the hardcoded offsets.
@@ -37,4 +37,4 @@
  *
  * @param payload Pointer to the packet data to send.
  */
-void send_packet(BYTE *payload);
+void SendPacket(BYTE *payload);
